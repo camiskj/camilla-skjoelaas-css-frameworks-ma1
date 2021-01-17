@@ -1,0 +1,17 @@
+.navbar {
+    text-transform: uppercase;
+    background-color: $secondary;
+    margin-bottom: 30px;
+
+    &-brand {
+        font-weight: bold;
+    }
+
+    .active > .nav-link {
+        color: $contrast !important;
+    }
+
+    &-toggler {
+        border: 0 !important;
+    }
+}

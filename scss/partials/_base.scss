@@ -1,0 +1,15 @@
+html,
+body {
+    height: 100%;
+    background-color: $primary !important;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: $dark-grey;
+}
